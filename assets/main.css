@@ -1,0 +1,9 @@
+.flex-container-index{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: stretch;
+
+}
