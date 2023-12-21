@@ -1,17 +1,7 @@
-.flex-container-index{
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: stretch;
-    
-}
-.flex-container-index-colum{
-    display:flex ;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content:space-evenly;
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
 }
