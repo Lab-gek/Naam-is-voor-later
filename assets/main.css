@@ -1,7 +1,11 @@
-.grid-container{
+.grid-container-collumn{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
-    width: 100vw;
+}
+.grid-container-row{
+    display:grid;
+    grid-template-rows:auto auto auto ;
+    width: 33.233333vw;
     height: 100vw;
 }
