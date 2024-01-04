@@ -1,17 +1,14 @@
-.flex-container-index{
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: stretch;
-    
+.grid-container-collumn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
 }
-.flex-container-index-colum{
-    display:flex ;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content:space-evenly;
+.grid-container-row{
+    display:grid;
+    grid-template-rows: 50vh 25vh 15vh ;
+}
+.body-index{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
