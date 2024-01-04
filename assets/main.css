@@ -1,9 +1,10 @@
-.grid-container-collumn{
+/* index.html */
+.grid-container-collumn-index{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
 }
-.grid-container-row{
+.grid-container-row-index{
     display:grid;
     grid-template-rows: 50vh 25vh 15vh ;
 }
@@ -11,4 +12,11 @@
     margin: 0;
     height: 100%;
     overflow: hidden
+}
+/* navbar */
+.navbar{
+    display: inline-block;
+}
+.active-page-nav{
+
 }
