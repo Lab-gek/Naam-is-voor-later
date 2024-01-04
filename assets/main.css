@@ -5,7 +5,10 @@
 }
 .grid-container-row{
     display:grid;
-    grid-template-rows:auto auto auto ;
-    width: 33.233333vw;
-    height: 100vw;
+    grid-template-rows: 50vh 25vh 15vh ;
+}
+.body-index{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
