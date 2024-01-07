@@ -9,14 +9,38 @@
     grid-template-rows: 50vh 25vh 15vh ;
 }
 .body-index{
-    margin: 0;
-    height: 100%;
     overflow: hidden
 }
 /* navbar */
 .navbar{
     display: inline-block;
-}
-.active-page-nav{
+    text-align: center;
 
+}
+.active-page-nav a {
+    color: green;
+    font-weight: bold;
+}
+/* overons */
+.gird-container-columns-overons{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    height: 100vh;
+}
+.line-overons{
+    border-left: 2px solid black;
+    height: 100vh;
+}
+/* game1 */
+.grid-Row-game1{
+    display: grid;
+    grid-template-rows: 66.661vh 33.332vh;
+
+}
+.grid-column-game1{
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+}
+.line-game1{
+    border-top: 2px solid black;
 }
