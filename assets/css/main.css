@@ -1,3 +1,6 @@
+body{
+    font-family: cursive;
+}
 /* index.html */
 .grid-container-collumn-index{
     display: grid;
@@ -12,20 +15,49 @@
     overflow: hidden
 }
 /* navbar */
-.navbar{
+.navbar {
     display: inline-block;
+    font-size: large ;
+    appearance: button;
+}
+.button {
+    background-color: #04BFBF;
+    border: none;
+    color: #59230F;
+    padding: 20px 34px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 50px;
+    cursor: pointer;
+    border-radius: 100px;
+  }
 
+.nav {
+    border-bottom: 5px solid rgb(89, 35, 15);
+    text-align: center;
+    height: 10vh;
+      
+}
+
+.navbar ol {
+    list-style-type: none;
+    
+}
+.navbar a {
+    text-decoration: none;
 }
 .active-page-nav a {
-    color: green;
+    color: #032F40;
     font-weight: bold;
 }
 /* overons */
-.gird-container-columns-overons{
+.grid-container-columns-overons {
     display: grid;
     grid-template-columns: 50vw 50vw;
     height: 100vh;
+    color: green;
 }
 .line-overons{
     border-left: 2px solid black;
