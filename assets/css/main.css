@@ -14,12 +14,13 @@ body{
 .body-index{
     overflow: hidden
 }
-.logo{
+.logo {
     height: 200px;
     width: 200px;
+
+    justify-content: center;
     align-items: center;
     border-radius: 100px;
-
 }
 /* navbar */
 .navbar {
