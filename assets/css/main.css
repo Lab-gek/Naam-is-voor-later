@@ -36,7 +36,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 50px;
+    margin: 4px 0px 0px 10px;
     cursor: pointer;
     border-radius: 50px;
   }
@@ -80,7 +80,11 @@ body{
     height: 100vh;
 }
 .icons {
-    padding-left: 5px;
+    /* top right bottom left */
+    padding: 5px 10% 0px 25% ;
+    text-align: center;
+    height: 50px;
+    width: auto;
 }
 .text-jobs-overons{
     padding-left: 10px;
@@ -88,7 +92,7 @@ body{
 /* game1 */
 .grid-Row-game1{
     display: grid;
-    grid-template-rows: 66.661vh 33.332vh;
+    grid-template-rows: 60vh 30vh;
 
 }
 .grid-column-game1{
@@ -110,3 +114,17 @@ table, th, td {
   .text-game1{
       text-align: center;
   }
+.image-game1{
+    background-image: url(../images/Legenzalensim.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.fade-game1{
+    background: #7c7878;
+background: -moz-linear-gradient(top, #7c7878 0%, #000000 100%);
+background: -webkit-linear-gradient(top, #7c7878 0%, #000000 100%);
+background: linear-gradient(to bottom, #7c7878 0%, #000000 100%);
+}
