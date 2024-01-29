@@ -90,7 +90,7 @@ body{
     padding-left: 10px;
 }
 /* game1 */
-.grid-Row-game1{
+.grid-row-game1{
     display: grid;
     grid-template-rows: 60vh 30vh;
 
