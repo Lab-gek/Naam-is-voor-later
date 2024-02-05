@@ -31,12 +31,12 @@ body{
     background-color: #04BFBF;
     border: none;
     color: #59230F;
-    padding: 20px 34px;
+    padding: 10px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 0px 0px 10px;
+    margin: 1px 0px 0px 55px;
     cursor: pointer;
     border-radius: 50px;
   }
@@ -73,7 +73,7 @@ body{
 }
 .grid-container-rows-overons {
     display: grid;
-    grid-template-rows: 80vh 10vh;
+    grid-template-rows: 70vh 20vh;
 }
 .v-line-overons{
     border-left: 2px solid black;
@@ -127,4 +127,26 @@ table, th, td {
 background: -moz-linear-gradient(top, #7c7878 0%, #000000 100%);
 background: -webkit-linear-gradient(top, #7c7878 0%, #000000 100%);
 background: linear-gradient(to bottom, #7c7878 0%, #000000 100%);
+}
+/* game2*/
+.grid-column-game2{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+
+}
+.line1-game2{
+    border-right: 5px solid black;
+}
+.line2-game2{
+    border-top: 5px solid black;
+
+}
+.grid-row-game2{
+    display: grid;
+    grid-template-rows: 45vh 45vh ;
+}
+.vid-game2{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(82, 78, 78);
 }
